@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CardProjectManage"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.Ilacsondurum"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DoktorilacYazihastaisimleri"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HastaTakibi"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HastaGunRandevuAl"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HastaAyRandevuAl"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HastaProfil"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DoktorProfil"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HastaRandevuAl"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HastaAnaSayfa"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DoktorAnaSayfa"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DoktorGirisYapEkrani"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DoktorKaydolEkrani"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HastaGirisYapEkrani"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HastaKaydolEkrani"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.DoktorSecimEkrani"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.HastaSecimEkrani"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.IntroActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SplahsActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

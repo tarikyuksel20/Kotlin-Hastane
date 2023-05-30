@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_doktor_profile"
+        android:icon="@drawable/ic_nav_user"
+        android:title="@string/nav_my_profile"
+        >
+    </item>
+    <item
+        android:id="@+id/nav_doktor_randevularım"
+        android:icon="@drawable/ic_nav_doktor_randevularim"
+        android:title="@string/nav_my_randevularım"
+        >
+    </item>
+    <item
+        android:id="@+id/doktor_hasta_takibi"
+        android:icon="@drawable/eye"
+        android:title="Hasta Takibi"
+        ></item>
+    <item
+        android:id="@+id/nav_doktor_settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/nav_ayarlar"
+        ></item>
+    <item
+        android:id="@+id/nav_doktor_ilacyaz"
+        android:icon="@drawable/baseline_medical_services_24"
+        android:title="İlaç Yaz"
+        ></item>
+    <item
+        android:id="@+id/nav_doktor_sign_out"
+        android:icon="@drawable/ic_nav_sign_out"
+        android:title="@string/nav_sign_out"
+        >
+    </item>
+</menu>

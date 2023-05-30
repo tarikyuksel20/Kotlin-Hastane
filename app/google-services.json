@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "830577821955",
+    "project_id": "hastane-b03ae",
+    "storage_bucket": "hastane-b03ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830577821955:android:9176a055ab8b34bad68136",
+        "android_client_info": {
+          "package_name": "com.tarik.CardProjectManage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830577821955-8vtuasffu0qr2r8etecs4rn81j1e0ueo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tarik.CardProjectManage",
+            "certificate_hash": "2268494f0dbfd724245db29f2698ce041b86ebe9"
+          }
+        },
+        {
+          "client_id": "830577821955-kokuq2sevb7819ano0l9qk96p5sok54b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLsavETbSFkwIibilsLbZtKwBb-a8I8Mg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830577821955-kokuq2sevb7819ano0l9qk96p5sok54b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

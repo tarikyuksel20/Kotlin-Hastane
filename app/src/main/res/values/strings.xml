@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CardProjectManage</string>
+    <string name="image_contentDescription">image</string>
+    <string name="let_s_get_started_text">Let\'s Get started</string>
+    <string name="intro_text_description">Collaborate and Plan Together Across Multiple Devices on Projemanag’s Minimalist Interface.</string>
+    <string name="sign_in">Hasta Giriş</string>
+    <string name="sign_up">Doktor Giriş</string>
+    <string name="hasta_giriş_yap">Giriş yap</string>
+    <string name="hasta_kaydol">Kaydol</string>
+    <string name="doktor_giriş_yap">Giriş Yap</string>
+    <string name="doktor_kaydol">Kaydol</string>
+    <!-- Hasta Kaydol -->
+    <string name="sign_up_description_text">Kaydolmak için bilgileri doldurun</string>
+    <string name="name">İsim</string>
+    <string name="password">Şifre</string>
+    <string name="email">Email</string>
+    <!-- END -->
+    <string name="nav_my_profile">Profil</string>
+    <string name="nav_sign_out">Çıkış</string>
+    <string name="nav_my_randevularım">Randevularım</string>
+    <string name="nav_ayarlar">Ayarlar</string>
+    <string name="aç">Open</string>
+    <string name="kapa">Kapa</string>
+
+    <string name="doktor_mobile">Telefon</string>
+    <string name="doktor_update">Güncelle</string>
+    <string name="doktor_my_profile">Profil</string>
+
+    <string name="hasta_mobile">Telefon</string>
+    <string name="hasta_update">Güncelle</string>
+    <string name="hasta_my_profile">Profil</string>
+</resources>

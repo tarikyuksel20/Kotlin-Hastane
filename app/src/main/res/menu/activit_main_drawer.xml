@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_hasta_profile"
+        android:icon="@drawable/ic_nav_user"
+        android:title="@string/nav_my_profile"
+        >
+    </item>
+    <item
+        android:id="@+id/nav_hasta_randevularım"
+        android:icon="@drawable/ic_nav_doktor_randevularim"
+        android:title="Randevu Al"
+        >
+    </item>
+    <item
+        android:id="@+id/nav_hasta_randevularım_bak"
+        android:icon="@drawable/ic_nav_doktor_randevularim"
+        android:title="Randevularım"
+        >
+    </item>
+    <item
+        android:id="@+id/nav_hasta_settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/nav_ayarlar"
+        ></item>
+    <item
+        android:id="@+id/nav_hasta_sign_out"
+        android:icon="@drawable/ic_nav_sign_out"
+        android:title="@string/nav_sign_out"
+        >
+    </item>
+
+</menu>
